@@ -1,8 +1,8 @@
-luku = int(input("Anna kokonaisluku: "))
+luku = int(input("Anna luku: "))
 
 if luku < 0:
     tulos = luku * -1
-    print(tulos)
+    print("Luvun itseisarvo on", tulos)
 
 else:
-    print(luku)
+    print("Luvun itseisarvo on", luku)
